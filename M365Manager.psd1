@@ -69,10 +69,10 @@ Description = 'PowerShell module to manage resources in Microsoft 365 / Azure AD
 # NestedModules = @()
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-FunctionsToExport = 'Add-MemberToGroup', 'Add-OwnerToGroup', 'Connect-O365Service', 
-               'Disconnect-O365Service', 'Find-Group', 'Find-ObjectIdentifier', 
+FunctionsToExport = 'Add-MemberToGroup', 'Add-OwnerToGroup', 'Connect-M365Service', 
+               'Disconnect-M365Service', 'Find-Group', 'Find-ObjectIdentifier', 
                'Get-GroupMember', 'Get-GroupName', 'Get-GroupOwner', 'Get-GroupType', 
-               'Get-O365Service', 'Get-StrongAuthentication', 
+               'Get-M365Service', 'Get-StrongAuthentication', 
                'Get-UserGroupAssignment', 'Get-UserGroupOwnership', 
                'Remove-MemberFromGroup', 'Remove-OwnerFromGroup', 
                'Set-StrongAuthentication'
